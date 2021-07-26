@@ -24,9 +24,6 @@ public class Test {
        new Test().test();
         Translator translate = Translator.getInstance();
         String text = translate.translate("Hello!", Language.ENGLISH, Language.ROMANIAN);
-        System.out.println(text);
-		System.out.println(text);
-		System.out.println(text);
 		System.out.println(text);
 		System.out.println(text);
     }
